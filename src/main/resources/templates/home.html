@@ -7,10 +7,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Taco based website</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
 </head>
 <body>
+<header th:replace="/fragments/header.html :: header"></header>
 <h1>Taco website</h1>
-<img th:src="@{/images/taco2.jpg}"/>
+<!--<img th:src="@{/images/taco2.jpg}"/>-->
 
 
 </body>
